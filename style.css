@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: auto;
+    border: 1px solid black;
+}
+
+.nav {
+    height: 40px;
+}
+
+.sec1-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+p {
+    margin: 12% 0 0 50px;
+    height: 65px;
+}
+
+.sec2{
+    display: flex;
+}
+
+.sec-left {
+    display: flex;
+    align-items: flex-end;
+}
+
+.school-link {
+    height: 40px;
+}
+
+.acc {
+    display: flex;
+}
+
+.join {
+    height: 40px;
+    width: 10vw;
+}
+
+.login {
+    height: 40px;
+    width: 10vw;
+}
