@@ -1,18 +1,26 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: auto;
+    box-sizing: border-box;
     border: 1px solid black;
+}
+
+.sec1 {
+    margin-bottom: 10vh;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 .nav {
     height: 40px;
+    width: 400px;
+    margin-left: 5%;
 }
 
 .sec1-bottom {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 h1 {
@@ -20,12 +28,13 @@ h1 {
 }
 
 p {
-    margin: 12% 0 0 50px;
+    margin: 0 0 0 50px;
     height: 65px;
 }
 
 .sec2{
     display: flex;
+    margin-left: 10%;
 }
 
 .sec-left {
@@ -35,6 +44,7 @@ p {
 
 .school-link {
     height: 40px;
+    width: 300px;
 }
 
 .acc {
@@ -43,10 +53,11 @@ p {
 
 .join {
     height: 40px;
-    width: 10vw;
+    width: 145px;
 }
 
 .login {
     height: 40px;
-    width: 10vw;
+    width: 145px;
+    margin-left: 10px;
 }
